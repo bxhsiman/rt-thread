@@ -17,6 +17,12 @@
 #include "drv_gpio.h"
 #include "drv_pwm.h"
 
+/*电机控制PWM PWM10 CH1-PA8 CH2-PA9CH3-PC3 CH4-PC11*/
+/*pwmname:pwm10*/
+#define BSP_USING_TIM10_PWM
+#define BSP_USING_TIM10_PWM_CH1
+#define BSP_USING_TIM10_PWM_CH2
+
 /* board configuration */
 #define SRAM_SIZE  96
 #define SRAM_END (0x20000000 + SRAM_SIZE * 1024)
