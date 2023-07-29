@@ -956,6 +956,7 @@ static int rt_hw_pwm_init(void)
             result = -RT_ERROR;
         }
     }
+    
 
     return result;
 }

@@ -272,10 +272,15 @@
 /* end of Onboard Peripheral Drivers */
 
 /* On-chip Peripheral Drivers */
-
+//#define BSP_USING_PULSE_ENCODER
+//#define BSP_USING_TIM2_ENCODER
+#define BSP_USING_HWTIMER
+#define BSP_USING_TIM6
+#define BSP_USING_PWM
 #define BSP_USING_GPIO
 #define BSP_USING_UART
 #define BSP_USING_UART1
+#define BSP_USING_UART6
 #define LSI_VALUE 40000
 /* end of On-chip Peripheral Drivers */
 
